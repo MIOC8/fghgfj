@@ -1,0 +1,40 @@
+@keyframes svg__1 {
+    0% {
+        stroke-dashoffset: 680;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 680;
+    }
+}
+
+@keyframes start {
+    0% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        filter: blur(100px);
+    }
+}
+
+@keyframes start2 {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        filter: blur(100px);
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+        filter: blur(0px);
+    }
+}
